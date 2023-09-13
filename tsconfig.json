@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "outDir": "dist", // 放置TS文件的地方
+    //   "target": "ES2015",
+      "target": "ES2017",// 支持的JS版本
+    //   "ignoreDeprecations": "5.0"
+    },
+    "include": ["src"] // 包含要编译的文件，src下面的ts文件都会编译
+  }
